@@ -1,0 +1,25 @@
+#main {
+  position: relative;
+}
+
+#main nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: right;
+  padding: 20px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 299;
+}
+
+#main nav svg {
+  cursor: pointer;
+}
+
+#main nav svg line {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*# sourceMappingURL=single-portfolio.css.map */
