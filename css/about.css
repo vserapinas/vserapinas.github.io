@@ -1,26 +1,6 @@
 body {
   overflow-x: auto;
-}
-
-@media (max-width: 420px) {
-  body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-}
-
-@media (min-width: 420px) and (max-width: 767px) {
-  body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
+  overflow-y: auto;
 }
 
 #main {
@@ -215,6 +195,10 @@ body {
   font-weight: 200;
   line-height: 2;
   padding: 0 20px;
+}
+
+#main .portfolio .about-me a {
+  color: #ffbf00;
 }
 
 @media (max-width: 420px) {
