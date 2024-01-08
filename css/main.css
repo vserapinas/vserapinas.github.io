@@ -331,6 +331,7 @@ header .envelope {
     width: 100%;
     text-align: center;
     right: 50%;
+    bottom: 75px;
     -webkit-transform: translateX(50%);
     transform: translateX(50%);
   }
@@ -626,7 +627,7 @@ header .envelope img:hover {
 @media (max-width: 420px) {
   #menu .header-social-link-section {
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
